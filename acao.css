@@ -1,0 +1,37 @@
+.imagem-fundo {
+  background-image: url('Imagens/Categoria-Ação.png');
+}
+
+/* Posições e tamanhos específicos dos filmes na categoria Ação */
+.filmeEmRitmoDeFuga {
+  top: 60px;
+  left: 1045px;
+  width: 320px;
+  height: 450px;
+}
+
+.filmeUncharted {
+  top: 60px;
+  left: 1455px;
+  width: 355px;
+  height: 450px;
+}
+
+.filmeMissaoImpossivel {
+  top: 600px;
+  left: 1000px;
+  width: 340px;
+  height: 395px;
+}
+
+.filmeDuroDeMatar {
+  top: 600px;
+  left: 1430px;
+  width: 340px;
+  height: 420px;
+}
+
+/* Sobrescreve a sombra do hover para combinar com a categoria Ação */
+.filme-area:hover {
+  box-shadow: 0 12px 35px rgba(225, 95, 34, 0.8); /* sombra laranja */
+}

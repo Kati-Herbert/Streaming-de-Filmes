@@ -1,0 +1,67 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Container da imagem de fundo - posição e tamanho genéricos */
+.imagem-fundo {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Menu categoria - comum */
+.menu-categoria {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+/* Container dos filmes - comum */
+#filmes {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  display: flex;
+  gap: 20px;
+}
+
+/* Capas dos filmes - comum */
+.capa-filme {
+  width: 120px;
+  height: 180px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.capa-filme:hover {
+  transform: scale(1.1);
+}
+
+/* Áreas clicáveis dos filmes - posição e cursor comuns */
+.filme-area {
+  position: absolute;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+/* Sombra padrão no hover (neutra) */
+.filme-area:hover {
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+}
